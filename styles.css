@@ -1,0 +1,57 @@
+:root {
+  --main-white: #FFFFFF;
+  --secondary-gray: #C0C0C0;
+  --blue-button: #167BF7;
+  --background: #00030C;
+  --main-font: 'Inter';
+}
+
+body {
+  background-color: var(--background);
+  color: var(--main-white);
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.principal {
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.container__button {
+  background-color: var(--blue-button);
+  border-radius: 5px;
+  padding: 1em;
+  color: var(--main-white);
+  display: block;
+  text-decoration: none;
+}
+
+.secondary_button {
+  background-color: transparent;
+  border: 2px solid var(--main-white);
+  border-radius: 5px;
+}
+
+.container__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.container__warning {
+  font-size: 0.75rem;
+  color: var(--secondary-gray)
+}
