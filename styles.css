@@ -23,6 +23,8 @@ body {
   background-image: url("img/background.png");
   background-repeat: no-repeat;
   background-size: contain;
+  align-items: center;
+  text-align: center;
 }
 
 .container {
@@ -38,6 +40,7 @@ body {
   color: var(--main-white);
   display: block;
   text-decoration: none;
+  margin-bottom: 1em;
 }
 
 .secondary_button {
@@ -54,4 +57,41 @@ body {
 .container__warning {
   font-size: 0.75rem;
   color: var(--secondary-gray)
+}
+
+.container__image {
+  margin: 1em 0 2em 0;
+}
+
+.container__box {
+  margin: 0 6em;
+}
+
+.secondary__image {
+  width: 80%;
+}
+
+.secondary {
+  align-items: center;
+  margin: 0 10em;
+}
+
+.description__title {
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--main-white);
+  margin-bottom: 0.1em;
+}
+
+.description__text {
+  color: var(--secondary-gray);
+}
+
+.secondary__button {
+   display: inline-block;
+   margin-top: 1em;
+}
+
+.container__description {
+  padding: 2em;
 }
